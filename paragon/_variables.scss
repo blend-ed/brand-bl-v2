@@ -1,15 +1,15 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
 
-$gray-100: #F8F9FB !default;
-$gray-200: #e2e8f0 !default;
-$gray-300: #cbd5e1 !default;
-$gray-400: #94a3b8 !default;
-$gray-500: #64748b !default;
-$gray-600: #475569 !default;
-$gray-700: #334155 !default;
-$gray-800: #1e293b !default;
-$gray-900: #0f172a !default;
+$gray-100: #f4f6f7 !default;
+$gray-200: #e2ebf1 !default;
+$gray-300: #d1dce4 !default;
+$gray-400: #9db3c1 !default;
+$gray-500: #668293 !default;
+$gray-600: #475b67 !default;
+$gray-700: #334855 !default;
+$gray-800: #1f323c !default;
+$gray-900: #0f212c !default;
 
 $grays: () !default;
 $grays: map-merge(
@@ -27,14 +27,14 @@ $grays: map-merge(
   $grays
 );
 
-$primary: #475fd1 !default;
-$secondary: #845cbd !default;
+$primary: #7F60A9 !default;
+$secondary: #28AAE2 !default;
 $success: #38a169 !default;
 $info: #0ea5e9 !default;
 $warning: #f59e0b !default;
 $danger: #dc2626 !default;
 $light: $gray-100 !default;
-$dark: #1C223D !default;
+$dark: $gray-900 !default;
 
 
 $theme-colors: () !default;
